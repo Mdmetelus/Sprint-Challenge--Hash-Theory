@@ -16,10 +16,16 @@ int main(void)
         A = i;
         B = j;
         C = k;
-        printf("A: %d, B: %d, C: %d, Result: %d\n", A, B, C, !(A || B) || ((A || C) && !(B || !C)));
+        printf("A: %d, B: %d, C: %d, Result: %d\n", A, B, C, (A && B && C));
       }
     }
   }
 
   return 0;
 }
+
+// carry (A ^ B ^ C)
+
+// sum (A && B && C)
+
+// 3  !(A || B) || ( (A || C) && !(B || !C) )
