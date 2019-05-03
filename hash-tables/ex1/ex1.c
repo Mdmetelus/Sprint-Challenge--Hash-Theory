@@ -13,7 +13,11 @@ Answer *get_indices_of_item_weights(int *weights, int length, int limit)
 
   for (int i = 0; i < length; i++)
   {
-    
+    if ((hash_table_retrieve(ht, weights[i])) != -1)
+    {
+      answer->index_1 = i;
+      answer->index_2 = hash_table_retrieve(ht, weights[i]);
+      
   }
 
 return NULL;
