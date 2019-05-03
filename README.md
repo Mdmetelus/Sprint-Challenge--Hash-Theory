@@ -33,7 +33,7 @@ During your challenge, you will be pulled aside by a PM for a 5 minute interview
   * 3. What is a hash table and how does it work?
 
           most important data structure: associative arrays, or dictionaries, objects, caches memoization.
-          key value datastorage and retrevial. via arrays
+          key value data storage and retrevial. via arrays
 
 
 You will receive points at the PM's discretion based on the following criteria:
