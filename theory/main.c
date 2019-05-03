@@ -24,8 +24,8 @@ int main(void)
   return 0;
 }
 
-// carry (A ^ B ^ C)
+// sum ^ 
 
-// sum (A && B && C)
+// carry && 
 
 // 3  !(A || B) || ( (A || C) && !(B || !C) )
