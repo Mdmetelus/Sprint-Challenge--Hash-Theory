@@ -9,7 +9,14 @@ Answer *get_indices_of_item_weights(int *weights, int length, int limit)
 
   // YOUR CODE HERE
 
-  return NULL;
+  Answer *answer = malloc(sizeof(Answer *));
+
+  for (int i = 0; i < length; i++)
+  {
+    
+  }
+
+return NULL;
 }
 
 void print_answer(Answer *answer)
