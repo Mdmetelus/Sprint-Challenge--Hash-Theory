@@ -16,7 +16,7 @@ int main(void)
         A = i;
         B = j;
         C = k;
-        printf("A: %d, B: %d, C: %d, Result: %d\n", A, B, C, (A && B && C));
+        printf("A: %d, B: %d, C: %d, Result: %d\n", A, B, C, (A && B) && C);
       }
     }
   }
@@ -24,8 +24,8 @@ int main(void)
   return 0;
 }
 
-// sum ^ 
+// sum (A xor B) xor C
 
-// carry && 
+// carry (A && B) && C
 
 // 3  !(A || B) || ( (A || C) && !(B || !C) )
