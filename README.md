@@ -26,7 +26,15 @@ During your challenge, you will be pulled aside by a PM for a 5 minute interview
 
   * 1. What is a computer and how does it work?
   * 2. What is an array and how does it work?
+
+          An array is a sequence of elements of the same type stored in a contiguous block of memory.
+          how big, request block of memory, get the address of reserved block write values.
+  
   * 3. What is a hash table and how does it work?
+
+          most important data structure: associative arrays, or dictionaries, objects, caches memoization.
+          key value data storage and retrevial. via arrays
+
 
 You will receive points at the PM's discretion based on the following criteria:
 
