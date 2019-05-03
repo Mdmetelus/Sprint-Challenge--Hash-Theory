@@ -17,7 +17,12 @@ Answer *get_indices_of_item_weights(int *weights, int length, int limit)
     {
       answer->index_1 = i;
       answer->index_2 = hash_table_retrieve(ht, weights[i]);
-      
+      return answer;
+    }
+    else
+    {
+      hash_table_insert(ht, (limit - weights[i]), i);
+    }
   }
 
 return NULL;
